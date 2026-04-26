@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Open Sans", sans-serif;
+}
+#header{
+    background-color: rgb(32, 35, 39);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo{
+    color: #fff;
+    padding: 10px 20px
+}
+#header .logo h1{
+        font-size: 28px;
+        margin-bottom: 5px;
+}
+#header .logo p{
+    color: gray;
+    padding: 0 10px 10px;
+    font-size: 15px;
+}
+#header .menu{
+    font-size: 28px;
+    color: #fff;
+    padding-right:15px ;
+
+}
+
+/* bottom header */
+#bottom-header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: 2px solid #baaeae;
+    margin: 20px 15px;
+}
+#bottom-header .links{
+    display: flex;
+    gap: 150px;
+}
+
+
+
+
+/* main */
+
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 40px;
+}
+.card{
+    width: 200px;
+}
+.card img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+    display: block;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px 0 40px;
+}
+
+.sec{
+    border: 2px solid #baaeae;
+    margin: 50px 30px;
+}
+h2{
+    margin:0 40px;
+    padding-bottom:0 ;
+  
+}
+#des p{
+    color: black;
+
+    padding: 0 40px;
+    line-height: 1.8;
+    text-align: justify;
+}
+#des ul{
+    padding: 10px 70px 0;
+
+}
+.rating {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0 40px;
+
+}
+.rating span {
+  color: #555;
+  font-size: 14px;
+}
+.x{
+      padding: 0 40px;
+}
+.btn {
+  display: inline-block;
+  margin: 0 40px 20px;
+  width: 200px;
+  height: 100px;
+  line-height: 100px; /* يخلي النص في النص عموديًا */
+  background-color: #000; /* اختاري اللون اللي عايزاه */
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* order now صفحه */
+
+#form{
+    width: auto;
+    margin: 50px 15px;
+    background: #fff;
+    padding: 30px;
+    border: 2px solid #baaeae;
+}
+
+#form .y{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+#form .y label{
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#form .y label::after{
+    content: " :";
+}
+
+#form input{
+  padding: 5px;
+  width: 250px;
+}
+
+#form input[type="radio"]{
+    width: auto;
+    
+}
+
+.btn-1 {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.gender-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gender-options {
+  margin-top: 10px;
+}
+
+.gender-options label {
+  margin-right: 15px;
+}
+.gender-box .z{
+    font-weight: bold;
+}
+
+
+
+
+
+
